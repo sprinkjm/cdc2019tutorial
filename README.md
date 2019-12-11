@@ -15,22 +15,31 @@ To run the CAT Vehicle Software for your own simulation, visit https://cps-vo.or
 
 Retrieve the data and code:
 
-git clone ()
-
+```
+git clone https://github.com/sprinkjm/cdc2019tutorial.git
+```
 
 # Generate plots from the paper
 
 Open MATLAB, and in the folder where the files were extracted
 
+## Initial setup
 ```
 >> a_early_controllers
 ```
+This set of plots and data demonstrate how the vehicle responded to step inputs, and to sinusoidal inputs.
 
-As well as the later controllers
+
+## Tuning approach
+After opening Simulink, you can examine car_dynamics.slx to see what the vehicle tuning parameters were like.
+
+
+## Updated control
 
 >> b_data_plotter
 
-After opening Simulink, you can examine car_dynamics.slx to see what the vehicle tuning parameters were like.
+This set of later plots shows how the tuned controller behaves.
+
 
 
 
